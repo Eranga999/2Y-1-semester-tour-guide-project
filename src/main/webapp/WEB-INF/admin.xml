@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+	
+	<servlet>
+	<servlet-name>AdminInsertservlet</servlet-name>
+	<servlet-class>com.admin.AdminInsertservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>AdminInsertservlet</servlet-name>
+	<url-pattern>/AdminInsertservlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+	<servlet-name>adminloginservet</servlet-name>
+	<servlet-class>com.admin.adminloginservet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>adminloginservet</servlet-name>
+	<url-pattern>/adminloginservet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+	<servlet-name>Adminupdateservlet</servlet-name>
+	<servlet-class>com.admin.Adminupdateservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>Adminupdateservlet</servlet-name>
+	<url-pattern>/Adminupdateservlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>Admindeleteservlet</servlet-name>
+	<servlet-class>com.admin.Admindeleteservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>Admindeleteservlet</servlet-name>
+	<url-pattern>/Admindeleteservlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>Reviewinsertservlet</servlet-name>
+	<servlet-class>com.admin.Reviewinsertservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>Reviewinsertservlet</servlet-name>
+	<url-pattern>/Reviewinsertservlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>Reviewreadservlet</servlet-name>
+	<servlet-class>com.admin.Reviewreadservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>Reviewreadservlet</servlet-name>
+	<url-pattern>/Reviewreadservlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>Reviewupdateservlet</servlet-name>
+	<servlet-class>com.admin.Reviewupdateservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>Reviewupdateservlet</servlet-name>
+	<url-pattern>/Reviewupdateservlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>Reviewdeleteservlet</servlet-name>
+	<servlet-class>com.admin.Reviewdeleteservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>Reviewdeleteservlet</servlet-name>
+	<url-pattern>/Reviewdeleteservlet</url-pattern>
+	</servlet-mapping>
+	
+
+	</web-app>

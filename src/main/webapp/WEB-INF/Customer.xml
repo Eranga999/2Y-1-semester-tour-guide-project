@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+
+	<servlet>
+		<servlet-name>CustomerInsertServlet</servlet-name>
+		<servlet-class>com.customer.CustomerInsertServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>CustomerInsertServlet</servlet-name>
+	<url-pattern>/CustomerInsertServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+		<servlet>
+		<servlet-name>Customerloginservlet</servlet-name>
+		<servlet-class>com.customer.Customerloginservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>Customerloginservlet</servlet-name>
+	<url-pattern>/Customerloginservlet</url-pattern>
+	</servlet-mapping>
+	
+	
+		
+		<servlet>
+		<servlet-name>CustomerUpdateservlet</servlet-name>
+		<servlet-class>com.customer.CustomerUpdateservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>CustomerUpdateservlet</servlet-name>
+	<url-pattern>/CustomerUpdateservlet</url-pattern>
+	</servlet-mapping>
+	
+	
+
+</web-app>
